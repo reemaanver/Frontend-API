@@ -1,0 +1,33 @@
+
+* {
+  margin: 0;
+  font-family: 'Titan One', cursive;
+  color: #333;
+}
+.Navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid orange;
+}
+.Navbar h1 {
+  color: orange;
+}
+.Navbar .links {
+  margin-left: auto;
+}
+.Navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.Navbar a:hover {
+  color: orange;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
