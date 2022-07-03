@@ -1,0 +1,109 @@
+.Navbar {
+    background: linear-gradient(90deg, rgb(252, 107,3) 0%, rgba(254, 94, 3, 1) 100%);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+
+}
+
+.Navbar .logo {
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 800px;
+    cursor: pointer;
+    
+}
+
+.Navbar .Nav-links a{
+    text-decoration: none;
+    color:#fff;
+    padding: 0.5rem 1rem; 
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.Navbar .Nav-links a:hover {
+    background-color: rgb(245, 173, 66);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.Navbar button {
+    display: none;
+}
+
+.Navbar .Nav-links #hidden{
+    display: flex;
+}
+
+@media only screen and (max-width: 1520px) {
+    .Navbar .logo {
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 700px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .Navbar .logo {
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 550px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1210px) {
+    .Navbar .logo {
+        color: #fff;
+        margin-left: 20px;
+        margin-right: 370px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1027px) {
+    .Navbar button {
+        display: flex;
+    }
+
+    .Navbar .Nav-links a {
+        display: none;
+    }
+
+    .Navbar .logo {
+        margin-right: 300px;
+        font-size: 25px;
+        margin-left: 0;
+    }
+
+    .Navbar .Nav-links #hidden {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        height: 230px;
+        width: 100%;
+        background-color: rgb(245, 136, 20);
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+    
+
+
+
+    
+
+
